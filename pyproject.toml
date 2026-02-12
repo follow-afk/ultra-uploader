@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ultra-uploader"
-version = "1.0.0"
-description = "A high-performance, modernized Telegram uploader built from scratch."
+version = "1.1.0"
+description = "A high-performance, modernized Telegram uploader optimized for Colab."
 authors = ["Manus AI <support@manus.im>"]
 readme = "README.md"
 
@@ -10,6 +10,7 @@ python = "^3.10"
 pyrogram = "^2.0.106"
 tgcrypto = "^1.2.5"
 python-dotenv = "^1.0.0"
+nest-asyncio = "^1.6.0"
 
 [tool.poetry.scripts]
 ultra-upload = "ultra_uploader.cli:main"
