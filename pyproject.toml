@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ultra-uploader"
+version = "1.0.0"
+description = "A high-performance, modernized Telegram uploader built from scratch."
+authors = ["Manus AI <support@manus.im>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyrogram = "^2.0.106"
+tgcrypto = "^1.2.5"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.scripts]
+ultra-upload = "ultra_uploader.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
